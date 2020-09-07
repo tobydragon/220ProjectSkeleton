@@ -1,9 +1,9 @@
 package edu.ithaca.dragon;
 
 public class Animal {
-    String name;
-    int weightValue;
-    String weightUnits;
+    private String name;
+    private int weightValue;
+    private String weightUnits;
     
     public Animal(String name, int weightValue){
         this.name = name;
@@ -13,6 +13,7 @@ public class Animal {
 
     @Override
     public String toString(){
-        return name + " weighs " + weightValue + " " + weightUnits; 
+        String response = name + " weighs " + weightValue + " " + weightUnits;
+        return  response;
     }
 }
