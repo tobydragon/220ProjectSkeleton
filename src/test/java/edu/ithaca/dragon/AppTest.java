@@ -11,5 +11,6 @@ public class AppTest {
         assertEquals(3, App.countLetters("abc"));
         assertEquals(3, App.countLetters("!abc!"));
         assertEquals(2, App.countLetters(" d "));
+        
     }
 }
