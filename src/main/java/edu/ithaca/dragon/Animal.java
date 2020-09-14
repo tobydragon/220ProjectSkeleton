@@ -15,4 +15,12 @@ public class Animal {
     public String toString(){
         return name + " weighs " + weightValue + " " + weightUnits; 
     }
+
+    public void eat(){
+        weightValue +=3;
+    }
+
+    public int getWeight(){
+        return weightValue;
+    }
 }

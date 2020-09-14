@@ -11,6 +11,6 @@ public class AnimalTest {
     public void toStringTest(){
         Animal animal = new Animal("Sally", 4);
         assertNotNull(animal.toString());
-        assertEquals("Sally weighs 4 pounds.", animal.toString());
+        assertEquals("Sally weighs 4 pounds", animal.toString());
     }
 }
