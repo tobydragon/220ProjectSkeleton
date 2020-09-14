@@ -1,5 +1,7 @@
 package edu.ithaca.dragon;
 
+import java.util.ArrayList;
+
 public class Animal {
     String name;
     int weightValue;
@@ -22,5 +24,9 @@ public class Animal {
 
     public int getWeight(){
         return weightValue;
+    }
+
+    public static int sumOfWeights(ArrayList<Animal> animals){
+        return -1;
     }
 }
