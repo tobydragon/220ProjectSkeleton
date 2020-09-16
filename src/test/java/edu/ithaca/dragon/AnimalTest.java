@@ -19,11 +19,12 @@ public class AnimalTest {
     @Test
     public void sumOfWeightsTest(){
         ArrayList<Animal> animals = new ArrayList<>();
+        assertEquals(0, Animal.sumOfWeights(animals));
         animals.add(new Animal("dog", 30));
+        assertEquals(30, Animal.sumOfWeights(animals));
         animals.add(new Animal("cat", 8));
         animals.add(new Animal("gerbil", 2));
         animals.add(new Animal("puppy", 5));
-
         assertEquals(45, Animal.sumOfWeights(animals));
 
     }

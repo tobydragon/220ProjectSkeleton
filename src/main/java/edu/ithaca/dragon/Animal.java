@@ -27,6 +27,14 @@ public class Animal {
     }
 
     public static int sumOfWeights(ArrayList<Animal> animals){
-        return -1;
+        int sum = 0;
+        for (Animal theAnimal : animals){
+            sum += theAnimal.getWeight();
+        }
+        //either for loop is fine in this scenario
+        // for (int i=0; i<animals.size(); i++){
+        //     sum += animals.get(i).getWeight();
+        // }
+        return sum;
     }
 }
