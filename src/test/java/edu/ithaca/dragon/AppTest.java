@@ -10,7 +10,6 @@ public class AppTest {
     public void countLettersTest(){
         assertEquals(3, App.countLetters("abc"));
         assertEquals(3, App.countLetters("!abc!"));
-<<<<<<< HEAD
         assertEquals(1, App.countLetters(" d "));
     }
     
@@ -19,9 +18,5 @@ public class AppTest {
         Animal eater = new Animal("Maria", 100);
         eater.eat();
         assertEquals(103, eater.getWeight());
-=======
-        assertEquals(2, App.countLetters(" d "));
-        
->>>>>>> master
     }
 }
